@@ -1,0 +1,49 @@
+git command for creating new repository
+========================================================================
+1.Go to source file and open gitbash
+2.create git file by git init
+3.git status
+4.git checkout -b branchName
+5.git add -A
+6.git commit -m "message"
+7.git remote add origin url
+8.git remote -v
+9.git push origin branchName
+========================================================================
+clone
+1.git clone url
+========================================================================
+pull
+1.git pull
+========================================================================
+How to Resolve Merge Conflict
+
+If two developers try to commit same changes on a same(main) branch,Then merge conflict occurs
+ 
+How to Resolve:
+1.Pull the code from main Branch
+2.Do the necessary Changes
+3.Push the code into branch
+4.Then Merge your branch
+========================================================================
+To get number of Branches
+
+1.git branch --list
+========================================================================
+To create new Branch
+1.Git branch branchName
+========================================================================
+To shift to new Branch
+2.git checkout newBranchName
+========================================================================
+
+
+
+
+
+
+
+
+
+
+
